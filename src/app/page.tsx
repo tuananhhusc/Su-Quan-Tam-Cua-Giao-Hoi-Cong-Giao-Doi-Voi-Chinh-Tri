@@ -7,7 +7,7 @@ import ArticleEnhancements from "./components/ArticleEnhancements";
 import { tocItems } from "./data/tocData";
 import { getSiteUrl } from "./lib/site";
 import { siteMeta } from "./lib/siteMeta";
-import ReportBody from "@/content/report.mdx";
+import ReportBody from "@/content/report";
 
 export default function Home() {
   const siteUrl = getSiteUrl();
