@@ -1,0 +1,26 @@
+import SectionIntro from "@/app/sections/SectionIntro";
+import SectionTheology from "@/app/sections/SectionTheology";
+import SectionDiplomacy from "@/app/sections/SectionDiplomacy";
+import SectionPeace from "@/app/sections/SectionPeace";
+import SectionConflict from "@/app/sections/SectionConflict";
+import SectionEcology from "@/app/sections/SectionEcology";
+import SectionCivic from "@/app/sections/SectionCivic";
+import SectionConclusion from "@/app/sections/SectionConclusion";
+import SectionReferences from "@/app/sections/SectionReferences";
+
+export default function ReportBody() {
+  return (
+    <>
+      <SectionIntro />
+      <SectionTheology />
+      <SectionDiplomacy />
+      <SectionPeace />
+      <SectionConflict />
+      <SectionEcology />
+      <SectionCivic />
+      <hr className="my-16 border-t border-[var(--color-divider)] w-1/3 mx-auto" />
+      <SectionConclusion />
+      <SectionReferences />
+    </>
+  );
+}
