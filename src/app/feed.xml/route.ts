@@ -10,6 +10,8 @@ function escapeXml(input: string) {
     .replaceAll("'", "&apos;");
 }
 
+export const dynamic = "force-static";
+
 export function GET() {
   const siteUrl = getSiteUrl();
   const title = siteMeta.title;
